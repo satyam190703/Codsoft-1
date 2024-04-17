@@ -1,6 +1,3 @@
-# Codsoft
-Internship Level 1(Task1)
-
 Description:
 This repository contains the source code for my personal portfolio website created using HTML and CSS. The portfolio showcases my skills, experience, and projects, providing visitors with a comprehensive overview of my professional background.
 The Portfolio contains header,about,sills,projects,resume,contact,footer sections.The portfolio can be viewed in two modes i.e. dark mode and light mode.It uses css properties like grid,flex etc. for proper display of page contents.Media Query has been used to make the page responsive.

@@ -1,0 +1,101 @@
+html,
+body {
+  padding: 20px;
+  margin: 20px;
+  margin-top:0px;
+  font-family:serif;
+  text-align:justify;
+  background-color:black;
+  color:white;
+}
+
+.intro-image{
+  margin-left:0px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:90px;
+}
+
+.skill{
+  font-size:20px;
+}
+
+.mbdr{
+  border:solid 6px;
+  border-color:#11a9ff;
+  border-style: dashed;
+  border-radius: 5px;
+  margin-top: 3px;
+  height:360px;
+}
+
+.brief-intro{
+  font-size:larger;
+}
+
+.myimg{
+  height:100%;
+  width:260px;
+}
+
+.intro{
+  font-size:21px;
+  color:#a9a3a3;
+}
+
+.icon{
+  height:40px;
+  width:40px;
+}
+
+.project-info{
+  font-size:20px;
+  font-weight:300;
+}
+.title{
+  font-size:20px;
+}
+a {
+  text-decoration: none;
+  color:blue;
+}
+.clone_visual{
+  display:flex;
+  flex-direction:row;
+  gap:50px;
+}
+.ach{
+  font-size:20px;
+}
+.certificate{
+  height:260px;
+  width:380px;
+}
+.badges-cer{
+  display:grid;
+  grid-border:solid 10px;
+  grid-template-columns: auto auto auto;
+  row-gap: 30px;
+  column-gap:40px;
+}
+.badge{
+  height:280px;
+  width:auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.end{
+  display:flex;
+  flex-direction:row;
+  gap:70%;
+}
